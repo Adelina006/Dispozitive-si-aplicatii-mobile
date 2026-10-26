@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DAM - Aplicatie</string>
+    <string name="date">Date:</string>
+    <string name="eur">EUR:</string>
+    <string name="usd">USD:</string>
+    <string name="gbp">GBP:</string>
+    <string name="xau">XAU:</string>
+    <string name="afisare_curs_valutar">Afisare curs valutar</string>
 </resources>

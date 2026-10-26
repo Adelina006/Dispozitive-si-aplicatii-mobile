@@ -23,6 +23,10 @@
         </activity>
         <activity
             android:name=".BNR_Activity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name=".Add_Activity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
