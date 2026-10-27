@@ -15,7 +15,7 @@
         android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/introduceti_numele"
+        android:hint="@string/introduceti_numele"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,19 +27,19 @@
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Introduceti data nasterii"
+        android:hint="Introduceti data nasterii"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNume" />
 
     <EditText
-        android:id="@+id/editTextText6"
+        android:id="@+id/editTextMedie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/introduceti_media"
+        android:hint="@string/introduceti_media"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDataNasterii" />
 
@@ -51,7 +51,7 @@
         android:layout_marginTop="16dp"
         android:text="@string/alegeti_facultatea"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText6" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMedie" />
 
     <Spinner
         android:id="@+id/spinnerFacultate"
@@ -96,7 +96,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnAdaugaStudent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/adauga_student"
